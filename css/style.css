@@ -240,7 +240,7 @@ body {
 }
 
 .css {
-    background-color: #cce9f7;
+    background-color: #fff4a3;
     color: #0b0e1b;
     padding: 46px 0;
 }
@@ -294,7 +294,7 @@ body {
 
 
 .javascript {
-    background-color: #cce9f7;
+    background-color: #282A35;
     color: #0b0e1b;
     padding: 46px 0;
 }
@@ -314,6 +314,7 @@ body {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 .javascript__subtitle {
@@ -344,4 +345,28 @@ body {
 
 .javascript__image img {
     max-width: 100%;
+}
+
+.footer {
+    padding: 20px 0;
+
+}
+
+.footer__container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link {
+    color: #000;
+    transition: 500ms;
+}
+
+.footer__link:hover {
+    scale: 1.2;
 }
