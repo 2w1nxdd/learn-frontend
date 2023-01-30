@@ -248,6 +248,7 @@ body {
 .css__row {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .css__left {
@@ -302,6 +303,7 @@ body {
 .javascript__row {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .javascript__left {
@@ -323,6 +325,7 @@ body {
     max-width: 700px;
     margin-bottom: 300px;
 }
+
 
 .javascript__button {
     padding: 10px 20px;
@@ -368,4 +371,30 @@ body {
 
 .footer__link:hover {
     scale: 1.2;
+}
+
+@media (max-width: 540px) {
+    .javascript__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .javascript__button {
+        margin-bottom: 20px;
+    }
+
+    .header__row {
+        flex-direction: column;
+    }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+    .header__nav a {
+        margin-bottom: 20px;
+    }
+
+    .header__logo {
+        margin-bottom: 20px;
+    }
 }
