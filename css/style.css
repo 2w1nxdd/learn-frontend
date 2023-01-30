@@ -248,7 +248,6 @@ body {
 .css__row {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .css__left {
@@ -395,6 +394,30 @@ body {
     }
 
     .header__logo {
+        margin-bottom: 20px;
+    }
+
+    .html__row {
+        flex-direction: column;
+    }
+
+    .html__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .html__button {
+        margin-bottom: 20px;
+    }
+
+    .css__row {
+        flex-direction: column;
+    }
+
+    .css__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .css__button {
         margin-bottom: 20px;
     }
 }
