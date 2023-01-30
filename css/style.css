@@ -105,6 +105,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header {
@@ -122,13 +123,13 @@ body {
 .header__logo {}
 
 .header__logo img {
-    min-width: 100%;
+    max-width: 100%;
     height: 70px;
     width: 70px;
 }
 
 .header__nav {
-    flex: 0 0 50%;
+    flex: 0 0 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -302,7 +303,6 @@ body {
 .javascript__row {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .javascript__left {
@@ -373,6 +373,10 @@ body {
 }
 
 @media (max-width: 540px) {
+    .javascript__row {
+        flex-direction: column;
+    }
+
     .javascript__subtitle {
         margin-bottom: 20px;
     }
