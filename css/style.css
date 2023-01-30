@@ -235,7 +235,7 @@ body {
 
 .courses__item:hover {
     scale: 1.1;
-    box-shadow: 3px 3px 40px #fff;
+    box-shadow: 2px 2px 40px #fff;
 }
 
 .courses__item-image {
