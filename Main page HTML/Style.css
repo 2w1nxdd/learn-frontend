@@ -211,13 +211,14 @@ body {
 
 }
 
-.themes-content-side{
+.themes-content-side {
     display: flex;
     flex-direction: row;
     margin-top: 26px;
 }
 
-.themes-left, .themes-right{
+.themes-left,
+.themes-right {
     width: 590px;
 }
 
@@ -239,7 +240,7 @@ body {
     margin-bottom: 30px;
 }
 
-.link-more{
+.link-more {
     margin-left: 80px;
     display: flex;
     flex-direction: column;
