@@ -109,8 +109,9 @@ body {
 }
 
 .header {
-    padding: 6px 0;
+    padding: 10px 0;
     font-size: 1.5rem;
+    background-color: rgb(200, 200, 200);
 }
 
 .header__row {
@@ -175,7 +176,7 @@ body {
 }
 
 .learn__subtitle {
-    color: pink;
+    color: #F1BF26;
     margin-bottom: 20px;
     font-size: 1.175rem;
 }
