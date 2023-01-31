@@ -246,7 +246,7 @@ body {
 }
 
 .link::before {
-    content: 1;
+    content: '🔗';
 }
 
 .link-more {
