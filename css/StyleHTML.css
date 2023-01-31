@@ -126,7 +126,9 @@ body {
     align-items: center;
 }
 
-.header__logo {}
+/* .header__logo {
+
+} */
 
 .header__logo img {
     max-width: 100%;
@@ -155,7 +157,9 @@ body {
     scale: 1.5;
 }
 
-.header__link {}
+/* .header__link {
+    
+} */
 
 .HTML {
     color: #EE964B;
