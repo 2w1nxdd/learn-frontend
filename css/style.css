@@ -152,6 +152,20 @@ body {
 
 .header__link {}
 
+.HTML {
+    color: #EE964B;
+}
+
+.CSS{
+    color: #30ACE0;
+}
+
+.JS{
+    color: #F1BF26;
+}
+
+/* -----------body------------ */
+
 .learn__container {
     max-width: 550px;
     margin: 0 auto;

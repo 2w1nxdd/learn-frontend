@@ -157,6 +157,18 @@ body {
 
 .header__link {}
 
+.HTML {
+    color: #EE964B;
+}
+
+.CSS{
+    color: #30ACE0;
+}
+
+.JS{
+    color: #F1BF26;
+}
+
 /* ----------------Main---------------- */
 
 .Front-banner {
@@ -170,10 +182,6 @@ body {
     font-size: 2.9rem;
     font-weight: 600;
     margin-bottom: 40px;
-}
-
-.HTML {
-    color: #EE964B;
 }
 
 .front-sub-title {
@@ -254,6 +262,10 @@ body {
 
 .link:hover {
     text-decoration: underline;
+}
+
+.CSS{
+    color: #30ACE0;
 }
 
 /* --------------------Footer------------------- */
