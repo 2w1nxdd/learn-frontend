@@ -245,6 +245,10 @@ body {
     margin-bottom: 30px;
 }
 
+.link::before {
+    content: 1;
+}
+
 .link-more {
     margin-left: 80px;
     display: flex;
