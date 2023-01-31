@@ -115,8 +115,9 @@ body {
 /* ------- Header -------- */
 
 .header {
-    padding: 6px 0;
+    padding: 10px 0;
     font-size: 1.5rem;
+    background-color: #000;     
 }
 
 .header__row {
@@ -161,6 +162,10 @@ body {
     
 } */
 
+.header-tutor{
+    color: #ffff;
+}
+
 .HTML {
     color: #EE964B;
 }
@@ -173,10 +178,26 @@ body {
     color: #F1BF26;
 }
 
+/* ----------social-------- */
+
+.social {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 10000000000;
+}
+
+.social-item {
+    margin: 15px;
+}
+
 /* ----------------Main---------------- */
 
 .Front-banner {
-    background-color: #282A35;
+    background-color: #373a47;
     padding: 46px 0;
 }
 
@@ -272,11 +293,23 @@ body {
     color: #30ACE0;
 }
 
+.css-link{
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    transition: 500ms;
+}
+
+.css-link:hover {
+    text-decoration: underline;
+}
+
 /* --------------------Footer------------------- */
 
 .footer {
     padding: 20px 0;
-
+    background-color: #000;
 }
 
 .footer__container {
@@ -290,7 +323,7 @@ body {
 }
 
 .footer__link {
-    color: #000;
+    color: #ffff;
     transition: 500ms;
 }
 
