@@ -188,6 +188,7 @@ body {
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .Themes {
@@ -245,10 +246,6 @@ body {
     margin-bottom: 30px;
 }
 
-.link::before {
-    content: '🔗';
-}
-
 .link-more {
     margin-left: 80px;
     display: flex;
@@ -283,4 +280,42 @@ body {
 
 .footer__link:hover {
     scale: 1.2;
+}
+
+/* ------------------btn-------------- */
+
+.dropbtn {
+    border: none;
+}
+
+.dropdown {
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    margin: 20px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 300px;
 }
