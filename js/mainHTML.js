@@ -22,3 +22,13 @@ function openDropdownContentLists(event) {
     listsDrop.classList.toggle('__active');
     event.preventDefault();
 }
+
+document.addEventListener("click", documentActions);
+
+function documentActions(event) {
+    const targetElement = event.target;
+
+    if (targetElement.closest('.icon-menu')) {
+        document.documentElement.classList.toggle('menu-open')
+    }
+}

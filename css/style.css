@@ -464,3 +464,10 @@ body {
     color: #CDAA7D;
     text-decoration: underline;
 }
+
+@media(max-width:550px) {
+    .footer__row {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+}
