@@ -209,22 +209,6 @@ body {
     border-bottom: 3px solid #CDAA7D;
 }
 
-/* ----------social-------- */
-
-.social {
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    z-index: 10000000000;
-}
-
-.social-item {
-    margin: 15px;
-}
-
 /* ----------------Main---------------- */
 
 .Front-banner {
