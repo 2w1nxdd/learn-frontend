@@ -225,7 +225,7 @@ body {
 }
 
 .Themes {
-    padding: 46px 0 26px 0;
+    padding: 46px;
     background-color: #F6D0B1;
 }
 
@@ -299,10 +299,16 @@ body {
     font-weight: 600;
     color: #000;
     transition: 500ms;
+    padding: 5px 0;
+    border-bottom: 3px solid #000;
 }
 
-.css-link:hover {
-    text-decoration: underline;
+.btn-css {
+    background-color: #F6D0B1;
+}
+
+.btn-css:hover {
+    scale: 1.5;
 }
 
 /* --------------------Footer------------------- */
