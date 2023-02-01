@@ -305,6 +305,7 @@ body {
     margin-bottom: 20px;
 }
 
+
 .front-sub-text {
     color: #ffff;
     font-size: 1.25rem;
@@ -325,12 +326,48 @@ body {
     color: #ffff;
 }
 
+@media (max-width:350px) {
+    .Themes-title-text {
+        font-size: 2rem;
+    }
+
+    .front-title {
+        font-size: 2rem;
+    }
+}
+
+/* ----Line---- */
 .Themes-hr {
     background-color: #ffff;
     height: 3px;
-    width: 450px;
+    width: 40%;
     margin: 46px 0;
 }
+
+@media(max-width:500px) {
+    .front-title {
+        font-size: 2.5rem;
+    }
+
+    .Themes-hr {
+        width: 60%;
+    }
+}
+
+@media (max-width:280px) {
+    .Themes-title-text {
+        font-size: 1.5rem;
+    }
+
+    .front-title {
+        font-size: 1.5rem;
+    }
+
+    .Themes-hr {
+        width: 100%;
+    }
+}
+
 
 .Themes-title-sub {
     font-size: 2rem;
