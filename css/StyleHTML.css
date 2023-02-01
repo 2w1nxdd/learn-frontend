@@ -196,6 +196,7 @@ body {
     }
 
     .menu__link {
+        color: #ffff;
         font-size: 2rem;
     }
 
@@ -249,7 +250,11 @@ body {
 
 }
 
-.header-tutor:hover {
+.menu-other{
+    color: #ffff;
+}
+
+.menu-other:hover {
     padding-bottom: 2px;
     color: #CDAA7D;
     border-bottom: 3px solid #CDAA7D;
@@ -522,7 +527,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    box-shadow: 1px 5px 5px 0px #CDAA7D;
+    box-shadow: 3px 5px 5px 0px #CDAA7D;
 }
 
 /* .dropdown:hover .dropdown-content {

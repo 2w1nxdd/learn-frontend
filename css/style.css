@@ -251,7 +251,11 @@ body {
 
 }
 
-.header-tutor:hover {
+.menu-other{
+    color: #ffff;
+}
+
+.menu-other:hover {
     padding-bottom: 2px;
     color: #CDAA7D;
     border-bottom: 3px solid #CDAA7D;
