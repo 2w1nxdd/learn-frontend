@@ -36,6 +36,7 @@ aside {
 
 html,
 body {
+    background-color: #111111;
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -117,7 +118,7 @@ body {
 .header {
     padding: 10px 0;
     font-size: 1.5rem;
-    background-color: #111111;   
+    background-color: #111111;
 }
 
 .header__row {
@@ -126,7 +127,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ffff;  
+    border-bottom: 1px solid #ffff;
 }
 
 /* .header__logo {
@@ -164,13 +165,13 @@ body {
     
 } */
 
-.header-tutor:hover{
+.header-tutor:hover {
     padding-bottom: 2px;
     color: #CDAA7D;
     border-bottom: 3px solid #CDAA7D;
 }
 
-.header-tutor{
+.header-tutor {
     color: #ffff;
 }
 
@@ -178,30 +179,31 @@ body {
     color: #EE964B;
 }
 
-.CSS{
+.CSS {
     color: #30ACE0;
 }
 
-.JS{
+.JS {
     color: #F1BF26;
 }
 
-.HTML-MENU{
+.HTML-MENU {
     padding-bottom: 2px;
     color: #CDAA7D;
     border-bottom: 3px solid #CDAA7D;
 }
 
-.HTML-MENU:hover{
-    padding-bottom: 2px;
-    border-bottom: 3px solid #CDAA7D;
-}
- .CSS-MENU:hover{
+.HTML-MENU:hover {
     padding-bottom: 2px;
     border-bottom: 3px solid #CDAA7D;
 }
 
-.JS-MENU:hover{
+.CSS-MENU:hover {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #CDAA7D;
+}
+
+.JS-MENU:hover {
     padding-bottom: 2px;
     border-bottom: 3px solid #CDAA7D;
 }
@@ -265,7 +267,7 @@ body {
 }
 
 .Themes-hr {
-    background-color: #CDAA7D;
+    background-color: #ffff;
     height: 3px;
     width: 450px;
     margin: 46px 0;
@@ -320,11 +322,11 @@ body {
     text-decoration: underline;
 }
 
-.CSS{
+.CSS {
     color: #30ACE0;
 }
 
-.css-link{
+.css-link {
     margin-left: 20px;
     font-size: 2rem;
     font-weight: 600;
@@ -345,18 +347,21 @@ body {
 /* --------------------Footer------------------- */
 
 .footer {
-    padding: 20px 0;
-    background-color: #000;
+    background-color: #111111;
 }
 
 .footer__container {
-    max-width: 500px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .footer__row {
     display: flex;
     justify-content: space-between;
+    padding: 80px 0;
+    border-bottom: 1px solid #ffff;
+    border-top: 1px solid #ffff;
+    margin-top: 54px;
 }
 
 .footer__link {
@@ -402,4 +407,14 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
     width: 300px;
+}
+
+.last {
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;   
+    margin-right: 45px;
 }
