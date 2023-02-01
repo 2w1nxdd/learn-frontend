@@ -142,7 +142,7 @@ body {
     width: 70px;
 }
 
-.header__nav {}
+/* .header__nav {} */
 
 
 .header__nav a {
@@ -154,7 +154,7 @@ body {
     scale: 1.1;
 }
 
-.menu__body {}
+/* .menu__body {} */
 
 .menu__list {
     display: flex;
@@ -164,13 +164,13 @@ body {
     flex-wrap: wrap;
 }
 
-.menu__icon {}
+/* .menu__icon {} */
 
 .icon-menu {
     display: none;
 }
 
-.icon-menu__line {}
+/* .icon-menu__line {} */
 
 
 @media(max-width:550px) {
