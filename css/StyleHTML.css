@@ -117,7 +117,7 @@ body {
 .header {
     padding: 10px 0;
     font-size: 1.5rem;
-    background-color: #000;     
+    background-color: #111111;   
 }
 
 .header__row {
@@ -125,6 +125,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffff;  
 }
 
 /* .header__logo {
@@ -155,12 +157,18 @@ body {
 }
 
 .header__nav a:hover {
-    scale: 1.5;
+    scale: 1.1;
 }
 
 /* .header__link {
     
 } */
+
+.header-tutor:hover{
+    padding-bottom: 2px;
+    color: #CDAA7D;
+    border-bottom: 3px solid #CDAA7D;
+}
 
 .header-tutor{
     color: #ffff;
@@ -176,6 +184,26 @@ body {
 
 .JS{
     color: #F1BF26;
+}
+
+.HTML-MENU{
+    padding-bottom: 2px;
+    color: #CDAA7D;
+    border-bottom: 3px solid #CDAA7D;
+}
+
+.HTML-MENU:hover{
+    padding-bottom: 2px;
+    border-bottom: 3px solid #CDAA7D;
+}
+ .CSS-MENU:hover{
+    padding-bottom: 2px;
+    border-bottom: 3px solid #CDAA7D;
+}
+
+.JS-MENU:hover{
+    padding-bottom: 2px;
+    border-bottom: 3px solid #CDAA7D;
 }
 
 /* ----------social-------- */
@@ -197,7 +225,7 @@ body {
 /* ----------------Main---------------- */
 
 .Front-banner {
-    background-color: #373a47;
+    background-color: #111111;
     padding: 46px 0;
 }
 
@@ -226,17 +254,18 @@ body {
 
 .Themes {
     padding: 46px;
-    background-color: #F6D0B1;
+    background-color: #111111;
 }
 
 .Themes-title-text {
     font-size: 2.5rem;
     font-weight: 500;
     width: fit-content;
+    color: #ffff;
 }
 
 .Themes-hr {
-    background-color: #000;
+    background-color: #CDAA7D;
     height: 3px;
     width: 450px;
     margin: 46px 0;
@@ -247,6 +276,7 @@ body {
     font-weight: 400;
     width: fit-content;
     margin-bottom: 60px;
+    color: #ffff;
 
 }
 
@@ -273,7 +303,7 @@ body {
 .link {
     height: fit-content;
     width: fit-content;
-    color: #282A35;
+    color: #ffff;
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 30px;
@@ -286,6 +316,7 @@ body {
 }
 
 .link:hover {
+    color: #CDAA7D;
     text-decoration: underline;
 }
 
@@ -297,18 +328,18 @@ body {
     margin-left: 20px;
     font-size: 2rem;
     font-weight: 600;
-    color: #000;
+    color: #ffff;
     transition: 500ms;
     padding: 5px 0;
-    border-bottom: 3px solid #000;
+}
+
+.css-link:hover {
+    border-bottom: 3px solid #CDAA7D;
+    color: #CDAA7D;
 }
 
 .btn-css {
-    background-color: #F6D0B1;
-}
-
-.btn-css:hover {
-    scale: 1.5;
+    background-color: #111111;
 }
 
 /* --------------------Footer------------------- */
@@ -333,9 +364,7 @@ body {
     transition: 500ms;
 }
 
-.footer__link:hover {
-    scale: 1.2;
-}
+
 
 /* ------------------btn-------------- */
 
@@ -353,21 +382,21 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #111111;
     width: fit-content;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 12px 0px #CDAA7D;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: #ffff;
     margin: 20px 20px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    box-shadow: 1px 5px 5px 0px #CDAA7D;
 }
 
 .dropdown:hover .dropdown-content {
