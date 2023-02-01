@@ -17,24 +17,28 @@
                     <div class="header__logo">
                         <a href="index.html"><img src="img/logo.png" alt=""></a>
                     </div>
-                    <nav class="header__nav">
-                        <a href="" class="header__link"><span class="header-tutor">Tutorials</span></a>
-                        <a href="indexHTML.html" class="header__link"> <span class="HTML HTML-MENU">HTML</span> </a>
-                        <a href="" class="header__link"> <span class="CSS CSS-MENU">CSS</span> </a>
-                        <a href="" class="header__link"> <span class="JS JS-MENU">JavaScript</span> </a>
+                    <nav class="header__nav menu">
+                        <div class="menu__body">
+                            <div class="menu__list">
+                                <a data-goto=".html" href="indexHTML.html" class="menu__link">
+                                    <span class="HTML HTML-MENU">HTML</span>
+                                </a>
+                                <a data-goto=".css" href="" class="menu__link">
+                                    <span class="CSS CSS-MENU">CSS</span>
+                                </a>
+                                <a data-goto=".js" href="" class="menu__link">
+                                    <span class="JS JS-MENU">JavaScript</span>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="menu__icon icon-menu" type="button">
+                            <span class="icon-menu__line"></span>
+                        </button>
                     </nav>
                 </div>
             </div>
         </header>
 
-        <div class="social">
-            <a href="" class="social-item">
-                <img src="img/social-tiktok-ic.svg" alt="">
-            </a>
-            <a href="" class="social-item">
-                <img src="img/social-inst-ic.svg" alt="">
-            </a>
-        </div>
         <div class="learn">
             <div class="learn__container">
                 <div class="learn__column">
@@ -93,11 +97,9 @@
                 </div>
             </div>
         </footer>
-        <div class="last">
-            <p class="hsa">HSA team</p>
-        </div>
     </div>
     </div>
+    <script src="js/homepage.js"></script>
 </body>
 
 </html>

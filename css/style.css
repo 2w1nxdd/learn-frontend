@@ -34,7 +34,6 @@ aside {
 
 html,
 body {
-    background-color: #111111;
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -97,10 +96,16 @@ body {
     font-weight: 500;
 }
 
+.menu-open body {
+    overflow: hidden;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    background-color: #111111;
+    overflow: hidden;
 }
 
 .container {
@@ -109,12 +114,14 @@ body {
     padding: 0 10px;
 }
 
+/* -------Header-------- */
+
 .header {
     margin-top: 40px;
     padding: 10px 0;
     font-size: 1.5rem;
-    background-color: #111111;
 }
+
 
 .header__row {
     width: 100%;
@@ -125,7 +132,10 @@ body {
     border-bottom: 1px solid #ffff;
 }
 
-/* .header__logo {} */
+.header__logo {
+    position: relative;
+    z-index: 5;
+}
 
 .header__logo img {
     max-width: 100%;
@@ -133,17 +143,8 @@ body {
     width: 70px;
 }
 
-.header__nav {
-    flex: 0 0 70%;
-    display: flex;
-    justify-content: space-between;
-}
+.header__nav {}
 
-@media(max-width:550px) {
-    .header__nav {
-        display: none;
-    }
-}
 
 .header__nav a {
     color: #000;
@@ -154,20 +155,105 @@ body {
     scale: 1.1;
 }
 
-<<<<<<< HEAD .header__link {}
+.menu__body {}
 
-=======
-/* .header__link {
-} */
+.menu__list {
+    display: flex;
+    align-items: center;
+    column-gap: 5rem;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.menu__icon {}
+
+.icon-menu {
+    display: none;
+}
+
+.icon-menu__line {}
+
+
+@media(max-width:550px) {
+    .menu__body {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        transition: left 300ms;
+        background-color: #282A35;
+        padding: 10rem 1rem 1.25rem 1rem;
+        overflow: auto;
+    }
+
+    .menu-open .menu__body {
+        left: 0;
+    }
+
+    .menu__list {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .menu__link {
+        font-size: 2rem;
+    }
+
+    .icon-menu {
+        display: block;
+        position: relative;
+        z-index: 5;
+        width: 2.5rem;
+        height: 2rem;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .icon-menu__line,
+    .icon-menu::before,
+    .icon-menu::after {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        height: 0.125rem;
+        width: 100%;
+        left: 0;
+        transition: all 300ms;
+    }
+
+    .icon-menu::before {
+        top: 0;
+    }
+
+    .icon-menu::after {
+        bottom: 0;
+    }
+
+    .icon-menu__line {
+        top: calc(50% - 0.0625rem);
+    }
+
+    .menu-open .icon-menu::before {
+        top: calc(50% - 0.0625rem);
+        transform: rotate(-45deg);
+    }
+
+    .menu-open .icon-menu::after {
+        bottom: calc(50% - 0.0625rem);
+        transform: rotate(45deg);
+    }
+
+    .menu-open .icon-menu__line {
+        left: 50%;
+        width: 0;
+    }
+
+}
 
 .header-tutor:hover {
     padding-bottom: 2px;
     color: #CDAA7D;
     border-bottom: 3px solid #CDAA7D;
-}
-
->>>>>>>5b015699d19bfbe1130546c81210712bcad332e0 .header-tutor {
-    color: #ffff;
 }
 
 .HTML {
@@ -197,21 +283,6 @@ body {
     border-bottom: 3px solid #CDAA7D;
 }
 
-/* ----------social-------- */
-
-.social {
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    z-index: 10000000000;
-}
-
-.social-item {
-    margin: 15px;
-}
 
 /* -----------body------------ */
 
@@ -221,7 +292,6 @@ body {
 }
 
 .learn {
-    background-color: #111111;
     padding: 46px 0;
 }
 
@@ -255,8 +325,8 @@ body {
 }
 
 .learn__button:hover {
-    color: #CDAA7D;
-    box-shadow: 5px 6px 6px 0px #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 @media(max-width:400px) {
@@ -280,7 +350,6 @@ body {
 
 .courses {
     padding: 74px 30px;
-    background-color: #D9D9D9;
     flex: 1 1 auto;
 }
 
@@ -290,6 +359,7 @@ body {
 }
 
 .courses__item {
+    border-radius: 10px;
     flex: 0 0 30%;
     display: flex;
     flex-direction: column;
@@ -301,10 +371,12 @@ body {
 
 .courses__item:hover {
     scale: 1.1;
-    box-shadow: 2px 2px 40px #fff;
+    box-shadow: 1px 1px 20px #fff;
 }
 
 .courses__item-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: #EDF0F5;
     width: 100%;
     text-align: center;
@@ -364,7 +436,7 @@ body {
 /* --------------------Footer------------------- */
 
 .footer {
-    background-color: #111111;
+    padding: 0 0 50px 0;
 }
 
 .footer__container {
@@ -374,7 +446,7 @@ body {
 
 .footer__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 80px 0;
     border-bottom: 1px solid #ffff;
     border-top: 1px solid #ffff;
@@ -384,21 +456,10 @@ body {
 .footer__link {
     color: #ffff;
     transition: 500ms;
+    font-size: 1.2rem;
 }
 
 .footer__link:hover {
-    scale: 1.1;
-    padding-bottom: 2px;
     color: #CDAA7D;
-    border-bottom: 3px solid #CDAA7D;
-}
-
-.last {
-    padding: 30px 0;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    opacity: 0.5;
-    margin-right: 45px;
+    text-decoration: underline;
 }
