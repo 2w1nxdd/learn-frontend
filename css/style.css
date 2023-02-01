@@ -154,9 +154,8 @@ body {
     scale: 1.1;
 }
 
-<<<<<<< HEAD .header__link {}
+.header__link {}
 
-=======
 /* .header__link {
 } */
 
@@ -166,7 +165,7 @@ body {
     border-bottom: 3px solid #CDAA7D;
 }
 
->>>>>>>5b015699d19bfbe1130546c81210712bcad332e0 .header-tutor {
+.header-tutor {
     color: #ffff;
 }
 
@@ -255,8 +254,7 @@ body {
 }
 
 .learn__button:hover {
-    color: #CDAA7D;
-    box-shadow: 5px 6px 6px 0px #fff;
+    box-shadow: 3px 6px 10px 1px #fff;
 }
 
 @media(max-width:400px) {
