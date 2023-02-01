@@ -355,6 +355,7 @@ body {
 
 .footer {
     background-color: #111111;
+    padding-bottom: 85px;
 }
 
 .footer__container {
@@ -425,13 +426,3 @@ body {
     display: block;
     width: 300px;
 } */
-
-.last {
-    padding: 30px 0;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    opacity: 0.5;
-    margin-right: 45px;
-}
