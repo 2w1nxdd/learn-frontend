@@ -116,6 +116,7 @@ body {
 /* ------- Header -------- */
 
 .header {
+    margin-top: 40px;
     padding: 10px 0;
     font-size: 1.5rem;
     background-color: #111111;
@@ -126,7 +127,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #ffff;
 }
 
@@ -369,7 +370,12 @@ body {
     transition: 500ms;
 }
 
-
+.footer__link:hover {
+    scale: 1.1;
+    padding-bottom: 2px;
+    color: #CDAA7D;
+    border-bottom: 3px solid #CDAA7D;
+}
 
 /* ------------------btn-------------- */
 
