@@ -150,10 +150,9 @@ body {
     scale: 1.5;
 }
 
-.header__link {
-}
+.header__link {}
 
-.header-tutor{
+.header-tutor {
     color: #ffff;
 }
 
@@ -161,11 +160,11 @@ body {
     color: #EE964B;
 }
 
-.CSS{
+.CSS {
     color: #30ACE0;
 }
 
-.JS{
+.JS {
     color: #F1BF26;
 }
 
@@ -344,7 +343,7 @@ body {
 
 .footer__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer__link {
