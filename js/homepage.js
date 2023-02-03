@@ -9,3 +9,8 @@ function documentActions(event) {
         document.documentElement.classList.toggle('menu-open')
     }
 }
+
+function scrollToCourses() {
+    let element = document.querySelector('.courses__row');
+    element.scrollIntoView({ behavior: "smooth", });
+}

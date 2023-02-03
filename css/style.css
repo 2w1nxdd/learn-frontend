@@ -254,11 +254,11 @@ body {
 
 .menu-other {
     color: #ffff;
+    transition: 500ms;
 }
 
 .menu-other:hover {
-    padding-bottom: 2px;
-    color: #CDAA7D;
+    scale: 1.1;
     border-bottom: 3px solid #CDAA7D;
 }
 
@@ -309,15 +309,17 @@ body {
 
 .learn__title {
     color: #ffff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .learn__subtitle {
     color: #CDAA7D;
     margin-bottom: 20px;
     font-size: 1.175rem;
+    text-align: center;
 }
 
 .learn__button {
@@ -337,7 +339,7 @@ body {
 
 @media(max-width:400px) {
     .learn__title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .learn__subtitle {
