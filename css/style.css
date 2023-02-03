@@ -414,7 +414,6 @@ body {
 }
 
 .courses__item-button {
-    align-self: start;
     padding: 10px 20px;
     border-radius: 20px;
     font-weight: 600;
@@ -423,6 +422,10 @@ body {
     background-color: #282A35;
     color: #fff;
     margin: 0 0 0 15px;
+}
+
+.courses__item-link {
+    align-self: start;
 }
 
 .courses__item-button a {
