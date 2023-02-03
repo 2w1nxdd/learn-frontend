@@ -250,7 +250,7 @@ body {
 
 }
 
-.menu-other{
+.menu-other {
     color: #ffff;
 }
 
@@ -529,8 +529,3 @@ body {
 .dropdown-content a:hover {
     box-shadow: 3px 5px 5px 0px #CDAA7D;
 }
-
-/* .dropdown:hover .dropdown-content {
-    display: block;
-    width: 300px;
-} */
