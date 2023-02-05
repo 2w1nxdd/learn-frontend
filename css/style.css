@@ -290,7 +290,7 @@ body {
     text-decoration: none;
 }
 
-/* -----------body------------ */
+/* -----------home page------------ */
 
 .learn__container {
     max-width: 550px;
@@ -658,6 +658,65 @@ body {
 
 .dropdown-content a:hover {
     box-shadow: 3px 5px 5px 0px #CDAA7D;
+}
+
+/* -------Lesson --------- */
+.return {
+    padding-top: 45px;
+}
+
+.return__link {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.lesson {
+    color: #fff;
+    padding: 45px 0;
+}
+
+.lesson__column {}
+
+.lesson__title {
+    font-size: 2rem;
+    margin-bottom: 64px;
+}
+
+.lesson__title-theme {
+    font-size: 1.875rem;
+}
+
+.lesson__item {
+    margin-bottom: 90px;
+}
+
+.lesson__item-title {
+    font-size: 1.5rem;
+    position: relative;
+    padding: 0 0 0 15px;
+    margin-bottom: 25px;
+}
+
+.lesson__item-title::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+.lesson__item-text {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+}
+
+.lesson__item-image {}
+
+.lesson__item-image img {
+    max-width: 100%;
 }
 
 /* --------------------Footer------------------- */
