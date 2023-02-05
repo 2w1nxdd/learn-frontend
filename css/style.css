@@ -205,7 +205,7 @@ body {
     .icon-menu {
         display: block;
         position: relative;
-        z-index: 5;
+        z-index: 15;
         width: 2.5rem;
         height: 2rem;
         background-color: rgba(0, 0, 0, 0);
@@ -697,6 +697,7 @@ body {
     margin-bottom: 25px;
 }
 
+
 .lesson__item-title::before {
     content: '';
     width: 10px;
@@ -707,6 +708,15 @@ body {
     top: 7px;
     left: 0;
 }
+
+.menu-open .lesson__item-title {
+    position: inherit;
+}
+
+.menu-open .lesson__item-title::before {
+    display: none;
+}
+
 
 .lesson__item-text {
     font-size: 1.3rem;
