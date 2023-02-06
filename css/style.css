@@ -692,29 +692,13 @@ body {
 
 .lesson__item-title {
     font-size: 1.5rem;
-    position: relative;
     padding: 0 0 0 15px;
     margin-bottom: 25px;
 }
 
 
 .lesson__item-title::before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-    position: absolute;
-    top: 7px;
-    left: 0;
-}
-
-.menu-open .lesson__item-title {
-    position: inherit;
-}
-
-.menu-open .lesson__item-title::before {
-    display: none;
+    content: '•';
 }
 
 
