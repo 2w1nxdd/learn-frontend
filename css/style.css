@@ -620,6 +620,8 @@ body {
 
 .btn-css {
     background-color: #111111;
+    position: absolute;
+    bottom: -150px;
 }
 
 /* ------------------Dropdown button-------------- */
@@ -701,6 +703,24 @@ body {
     content: '•';
 }
 
+.mar {
+    margin-top: 90px;
+}
+
+.mar-bot {
+    margin-bottom: 20px;
+}
+
+.what-is-it {
+    font-size: 1.3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.3;
+}
+
+.what-is-it-text {
+    color: #E1143C;
+}
 
 .lesson__item-text {
     font-size: 1.3rem;
